@@ -4,5 +4,6 @@ namespace OsuAPI
 {
     public class OsuAPI
     {
+
     }
 }
