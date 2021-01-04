@@ -7,20 +7,21 @@ namespace OsuAPI.Types
     [Serializable()]
     public struct BeatmapsetCompact
     {
-        string Artist;
-        string ArtistUnicode;
-        BeatmapCovers Covers;
-        string Creator;
-        long FvouriteCount;
-        long Id;
-        long PlayCount;
-        string PreviewURL;
-        string Source;
-        RankStatus Status;
-        string Title;
-        string TitleUnicode;
-        long UserId;
-        string Video;
+        public string Artist;
+        public string ArtistUnicode;
+        public BeatmapCovers Covers;
+        public string Creator;
+        public long FvouriteCount;
+        public long Id;
+        public long PlayCount;
+        public string PreviewURL;
+        public string Source;
+        public RankStatus Status;
+        public string Title;
+        public string TitleUnicode;
+        public long UserId;
+        public string Video;
+
         [Serializable()]
         public enum RankStatus : int
         {
